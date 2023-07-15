@@ -1,0 +1,20 @@
+Go to the directory go-back-n
+Here we already have a testFile.jpg which the one given in the assignment statement
+In this directory we have h1-arp.sh file and h2-arp.sh files which are for setting network values
+In this directory we have one direcotry documents which has generated image
+for running the program
+  - Open terminal in the current directory
+  - Run the command
+    $ sudo mn
+  - And we will have mininet environment
+  - Run the command
+    $ xterm h1 h2
+  - In h1 run
+    $ bash h1-arp.sh
+  - In h2 run
+    $ bash h2-arp.sh
+  - In h2 run
+    $ python3 CS20BTECH11037_recieverGBN.py
+  - Then in h1 run
+    $ python3 CS20BTECH11037_senderGBN.py
+  - Just see in the directory there will be output file created

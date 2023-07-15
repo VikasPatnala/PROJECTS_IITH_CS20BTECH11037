@@ -1,2 +1,2 @@
-# Project_Proofs_IITH
+# Projects in IITH
 Course Project in IITH
